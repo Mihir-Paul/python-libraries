@@ -6,3 +6,5 @@ print(np.sqrt(array))
 print(np.ceil(array))
 print(np.round(array))
 print(np.floor(array))
+
+print(np.pi * array **2)
