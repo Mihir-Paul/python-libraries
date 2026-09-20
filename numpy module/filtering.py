@@ -7,8 +7,10 @@ teenage = ages[ages<19]
 adult = ages[(ages >=19) & (ages<=25)]
 even = ages[(ages %2 ==0)]
 odd = ages[(ages %2 !=0)]
+adults =  np.where(ages>=21,ages,0)
 
 print(teenage)
 print(adult)
 print(even)
 print(odd)
+print(adults)
