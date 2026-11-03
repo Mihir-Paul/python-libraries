@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np  # pyright: ignore[reportMissingImports]
 
 arr = np.array([1,2,3,44], dtype=np.int64 )
 
